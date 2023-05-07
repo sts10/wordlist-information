@@ -103,7 +103,7 @@ clock enchilada luscious neither zucchini mousetrap
 
 ## KeePassXC's word list 
 
-[Source](https://github.com/keepassxreboot/keepassxc/blob/develop/share/wordlists/eff_large.wordlist). Note: This list is very similar to the EFF long list.
+This is the list that the [KeePassXC password manager](https://keepassxc.org/) will use by default ([source](https://github.com/keepassxreboot/keepassxc/blob/develop/share/wordlists/eff_large.wordlist). Note: This list is very similar to the EFF long list.
 
 ```text
 List length               : 7776 words
