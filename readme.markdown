@@ -285,13 +285,13 @@ Note: See [Tidy documentation](https://github.com/sts10/tidy#list-attributes) fo
 
 ### Prefix codes, suffix codes, and uniquely decodable codes
 
-If a word list is "uniquely decodable" that means that words from the list can be combined with a delimiter.
+If a word list is **uniquely decodable** that means that words from the list can be combined with a delimiter.
 
 As a brief example, if a list has "boy", "hood", and "boyhood" on it, users who specified they wanted two words worth of randomness (entropy) might end up with "boyhood", which an attacker guessing single words would try. Removing the word "boy", which makes the remaining list uniquely decodable, prevents this possibility from occurring.
 
-To make a list uniquely decodable, Tidy removes words. Tidy offers three (3) distinct procedures to make cuts until a list is uniquely decodable. Users can (1) remove all [prefix words](https://en.wikipedia.org/wiki/Prefix_code), (2) remove all suffix words, or (3) perform a procedure based on [the Sardinas–Patterson algorithm](https://en.wikipedia.org/wiki/Sardinas%E2%80%93Patterson_algorithm) that I have named "Schlinkert pruning." You can learn more about uniquely decodable codes and Schlinkert pruning from [this blog post](https://sts10.github.io/2022/08/12/efficiently-pruning-until-uniquely-decodable.html).
+My understanding is that the best way to determine if a given word list in uniquely decodable or not is to use [the Sardinas–Patterson algorithm](https://en.wikipedia.org/wiki/Sardinas%E2%80%93Patterson_algorithm), which is what Tidy does and what is printed above next to the label "Uniquely decodable?".
 
-Tidy can also simply check if a list is uniquely decodable. It does this using [the Sardinas–Patterson algorithm](https://en.wikipedia.org/wiki/Sardinas%E2%80%93Patterson_algorithm). You can do this by passing Tidy four `attributes` flag (`-AAAA`).
+Removing all [prefix words](https://en.wikipedia.org/wiki/Prefix_code) (or all suffix words) is one way to make a list uniquely decodable, but I contest it is not the only way, nor usually the most efficient. I adapted the Sardinas-Patterson algorithm to create, what I believe, is a more efficient method for making a word list uniquely decodable. I used this method to make all of the [Orchard Street Wordlists](https://github.com/sts10/orchard-street-wordlists) uniquely decodable. You can learn more about uniquely decodable codes and Schlinkert pruning from [this blog post](https://sts10.github.io/2022/08/12/efficiently-pruning-until-uniquely-decodable.html).
 
 ### On maximum shared prefix length
 
