@@ -265,7 +265,6 @@ Entropy per word          : 14.101 bits
 Efficiency per character  : 1.767 bits
 Assumed entropy per char  : 4.700 bits
 Above brute force line?   : true
-Above Shannon line?       : false
 Shortest edit distance    : 1
 Mean edit distance        : 7.914
 Longest shared prefix     : 14
