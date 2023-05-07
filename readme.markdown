@@ -281,7 +281,7 @@ lookout thoughtfully export majoring lacks tuberculosis
 
 ## Explanation of some of the list attributes above
 
-Note: See Tidy documentation for more.
+Note: See [Tidy documentation](https://github.com/sts10/tidy#list-attributes) for more.
 
 ### Prefix codes, suffix codes, and uniquely decodable codes
 
