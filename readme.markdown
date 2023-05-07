@@ -71,7 +71,8 @@ baggy grief scoot zippy kung malt
 
 EFF's short word list (with words that have unique three-character prefixes). [EFF writes of this list](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases):
 
-> Each word has a unique three-character prefix. This means that future software could auto-complete words in the passphrase after the user has typed the first three characters
+> Each word has a unique three-character prefix. This means that future software could auto-complete words in the passphrase after the user has typed the first three characters.
+>
 > All words are at least an edit distance of 3 apart. This means that future software could correct any single typo in the user's passphrase (and in many cases more than one typo).
 
 ```text
