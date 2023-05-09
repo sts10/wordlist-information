@@ -4,7 +4,7 @@ This readme file contains information about word lists commonly used to generate
 
 Copies of the word lists are included in this repository, but when possible, please get word lists from their original sources, as the ones included here are likely outdated.
 
-The information printed below was generated using a tool called [Tidy](https://github.com/sts10/tidy) (version 0.2.90) by running `tidy -AAAA --samples <wordlist-file>`.
+The information printed below was generated using a tool called [Tidy](https://github.com/sts10/tidy) (version 0.2.91) by running `tidy -AAAA --samples <wordlist-file>`.
 
 See below for an explanation of some of the attributes listed.
 
