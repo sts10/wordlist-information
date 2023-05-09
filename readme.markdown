@@ -221,8 +221,9 @@ boron fig rope tog peppy aster
 lw wand fungi gala boom spurt
 ```
 
-## Orchard Street Medium List (v0.1.1)
-Self-promotion alert: I created this word list. [GitHub repository](https://github.com/sts10/orchard-street-wordlists).
+## [Orchard Street Medium List (v0.1.1)](https://github.com/sts10/orchard-street-wordlists/blob/1e49450e90c862bbf101813d3105db46c22e9201/lists/orchard-street-medium.txt)
+
+Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. [GitHub repository](https://github.com/sts10/orchard-street-wordlists).
 ```text
 List length               : 7776 words
 Mean word length          : 7.05 characters
@@ -249,9 +250,9 @@ bargain transit thousand dispute bird stark
 describe repair issued admiral lowest talking
 ```
 
-## Orchard Street Long List (v0.1.1)
+## [Orchard Street Long List (v0.1.1)](https://github.com/sts10/orchard-street-wordlists/blob/1e49450e90c862bbf101813d3105db46c22e9201/lists/orchard-street-long.txt)
 
-Self-promotion alert: I created this word list. [GitHub repository](https://github.com/sts10/orchard-street-wordlists).
+Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. [GitHub repository](https://github.com/sts10/orchard-street-wordlists).
 
 ```text
 List length               : 17576 words
