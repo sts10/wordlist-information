@@ -193,6 +193,27 @@ input february art city thank work
 error laugh sand oak tuition inner
 ```
 
+## NSA RandPassGen List
+
+[Source](https://github.com/nsacyber/RandPassGenerator/blob/master/RandPassGenerator/data/wordlist.txt).
+
+```text
+List length               : 117828 words
+Mean word length          : 7.90 characters
+Length of shortest word   : 2 characters (ad)
+Length of longest word    : 21 characters (microminiaturizations)
+Free of prefix words?     : false
+Free of suffix words?     : false
+Uniquely decodable?       : false
+Entropy per word          : 16.846 bits
+Efficiency per character  : 2.133 bits
+Assumed entropy per char  : 8.423 bits
+Above brute force line?   : false
+Shortest edit distance    : 1
+Longest shared prefix     : 20
+Unique character prefix   : 21
+```
+
 ## Reinhold Diceware list
 [Source](https://theworld.com/%7Ereinhold/diceware.wordlist.asc). Note that the EFF long list was created to replace this list. I would recommend using that list instead of this one.
 ```text
