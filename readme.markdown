@@ -244,7 +244,8 @@ lw wand fungi gala boom spurt
 
 ## [Orchard Street Medium List (v0.1.3)](https://github.com/sts10/orchard-street-wordlists/blob/8d09228b40fc2d3af05b8b7ece114e9a7830a02e/lists/orchard-street-medium.txt)
 
-Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. [GitHub repository](https://github.com/sts10/orchard-street-wordlists).
+Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. As the creator of this list, I can confidently recommend that if you want to use this list, head over to [GitHub repository](https://github.com/sts10/orchard-street-wordlists) and get the very latest version.
+
 ```text
 List length               : 7776 words
 Mean word length          : 7.05 characters
@@ -273,7 +274,7 @@ hypotheses receives goalkeeper courtyard shoulder regarding
 
 ## [Orchard Street Long List (v0.1.3)](https://github.com/sts10/orchard-street-wordlists/blob/8d09228b40fc2d3af05b8b7ece114e9a7830a02e/lists/orchard-street-long.txt)
 
-Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. [GitHub repository](https://github.com/sts10/orchard-street-wordlists).
+Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. As the creator of this list, I can confidently recommend that if you want to use this list, head over to [GitHub repository](https://github.com/sts10/orchard-street-wordlists) and get the very latest version. 
 
 ```text
 List length               : 17576 words
