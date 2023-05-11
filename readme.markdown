@@ -242,7 +242,7 @@ boron fig rope tog peppy aster
 lw wand fungi gala boom spurt
 ```
 
-## [Orchard Street Medium List (v0.1.1)](https://github.com/sts10/orchard-street-wordlists/blob/1e49450e90c862bbf101813d3105db46c22e9201/lists/orchard-street-medium.txt)
+## [Orchard Street Medium List (v0.1.3)](https://github.com/sts10/orchard-street-wordlists/blob/8d09228b40fc2d3af05b8b7ece114e9a7830a02e/lists/orchard-street-medium.txt)
 
 Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. [GitHub repository](https://github.com/sts10/orchard-street-wordlists).
 ```text
@@ -258,20 +258,20 @@ Efficiency per character  : 1.834 bits
 Assumed entropy per char  : 4.308 bits
 Above brute force line?   : true
 Shortest edit distance    : 1
-Mean edit distance        : 6.950
+Mean edit distance        : 6.951
 Longest shared prefix     : 9
 Unique character prefix   : 10
 
 Word samples
 ------------
-charge excitement societal party passive reliable
-cents banker appetite paramount spelled corporate
-grief domains average similarly cheeks existed
-bargain transit thousand dispute bird stark
-describe repair issued admiral lowest talking
+interim failing scale endemic question convert
+smallest jam roles atlas monks studies
+arsenal indicating barker predicted golden football
+mars along posts throughout movement wagon
+hypotheses receives goalkeeper courtyard shoulder regarding
 ```
 
-## [Orchard Street Long List (v0.1.1)](https://github.com/sts10/orchard-street-wordlists/blob/1e49450e90c862bbf101813d3105db46c22e9201/lists/orchard-street-long.txt)
+## [Orchard Street Long List (v0.1.3)](https://github.com/sts10/orchard-street-wordlists/blob/8d09228b40fc2d3af05b8b7ece114e9a7830a02e/lists/orchard-street-long.txt)
 
 Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. [GitHub repository](https://github.com/sts10/orchard-street-wordlists).
 
@@ -294,12 +294,16 @@ Unique character prefix   : 15
 
 Word samples
 ------------
-yesterday valentine preposition conduit mollusk calligraphy
-foxes chow funny filters jokes electrodes
-constructive rat numerical girlfriend disposable inpatient
-pole worldly rear whereabouts sternly podcast
-lookout thoughtfully export majoring lacks tuberculosis
+fallow sandals plank weakest cells impure
+threshold monsieur accounting emery factual boron
+glider morale fruition petals bunkers battleship
+muster register welsh pleading compared fisher
+sterility yarn medically scant dissolved sensation
 ```
+
+## Licensing
+
+Refer to LICENSE file for how this readme file itself is licensed.
 
 ## Explanation of some of the list attributes above
 
@@ -311,7 +315,7 @@ If a word list is **uniquely decodable** that means that words from the list can
 
 As a brief example, if a list has "boy", "hood", and "boyhood" on it, users who specified they wanted two words worth of randomness (entropy) might end up with "boyhood", which an attacker guessing single words would try. Removing the word "boy", which makes the remaining list uniquely decodable, prevents this possibility from occurring.
 
-My understanding is that the best way to determine if a given word list in uniquely decodable or not is to use [the Sardinas–Patterson algorithm](https://en.wikipedia.org/wiki/Sardinas%E2%80%93Patterson_algorithm). This is [how Tidy determines if a word list is uniquely decodable](https://github.com/sts10/tidy/blob/main/src/display_information/uniquely_decodable.rs) and what is printed above next to the label "Uniquely decodable?".
+My understanding is that a good way to determine if a given word list in uniquely decodable or not is to use [the Sardinas–Patterson algorithm](https://en.wikipedia.org/wiki/Sardinas%E2%80%93Patterson_algorithm). This is [how Tidy determines if a word list is uniquely decodable](https://github.com/sts10/tidy/blob/main/src/display_information/uniquely_decodable.rs) and the result of that code is printed next to the label "Uniquely decodable?" in the word information above.
 
 Removing all [prefix words](https://en.wikipedia.org/wiki/Prefix_code) (or all suffix words) is one way to make a list uniquely decodable, but I contest it is not the only way, nor usually the most efficient. I adapted the Sardinas-Patterson algorithm to create, what I believe, is a more efficient method for making a word list uniquely decodable. I used this method to make all of the [Orchard Street Wordlists](https://github.com/sts10/orchard-street-wordlists) uniquely decodable. You can learn more about uniquely decodable codes and Schlinkert pruning from [this blog post](https://sts10.github.io/2022/08/12/efficiently-pruning-until-uniquely-decodable.html).
 
