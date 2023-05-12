@@ -242,7 +242,7 @@ boron fig rope tog peppy aster
 lw wand fungi gala boom spurt
 ```
 
-## [Orchard Street Medium List (v0.1.3)](https://github.com/sts10/orchard-street-wordlists/blob/8d09228b40fc2d3af05b8b7ece114e9a7830a02e/lists/orchard-street-medium.txt)
+## [Orchard Street Medium List (v0.1.4)](https://github.com/sts10/orchard-street-wordlists/blob/ee46d29aad7a2e0a677b2ffd3a72034f2e2ecaf1/lists/orchard-street-medium.txt)
 
 Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. As the creator of this list, I can confidently recommend that if you want to use this list, head over to [GitHub repository](https://github.com/sts10/orchard-street-wordlists) and get the very latest version.
 
@@ -265,14 +265,14 @@ Unique character prefix   : 10
 
 Word samples
 ------------
-interim failing scale endemic question convert
-smallest jam roles atlas monks studies
-arsenal indicating barker predicted golden football
-mars along posts throughout movement wagon
-hypotheses receives goalkeeper courtyard shoulder regarding
+novel sediment historical instance tubes widespread
+exercise birds blamed sits plenty readiness
+assuming burns matched monitor heavily reader
+below interact taught breeding slid walked
+connect sin owe slept agencies deeds
 ```
 
-## [Orchard Street Long List (v0.1.3)](https://github.com/sts10/orchard-street-wordlists/blob/8d09228b40fc2d3af05b8b7ece114e9a7830a02e/lists/orchard-street-long.txt)
+## [Orchard Street Long List (v0.1.4)](https://github.com/sts10/orchard-street-wordlists/blob/ee46d29aad7a2e0a677b2ffd3a72034f2e2ecaf1/lists/orchard-street-long.txt)
 
 Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. As the creator of this list, I can confidently recommend that if you want to use this list, head over to [GitHub repository](https://github.com/sts10/orchard-street-wordlists) and get the very latest version. 
 
@@ -295,20 +295,20 @@ Unique character prefix   : 15
 
 Word samples
 ------------
-fallow sandals plank weakest cells impure
-threshold monsieur accounting emery factual boron
-glider morale fruition petals bunkers battleship
-muster register welsh pleading compared fisher
-sterility yarn medically scant dissolved sensation
+unwarranted embodied professional achieved stupidity dye
+conservation orange considerable estuary stripped remains
+villagers cowardice destination detailed capacities intruder
+dentists synthetic cannabis dignity bagel accession
+ocean rooftop indifferent sometimes pamphlet thinkers
 ```
 
 ## Licensing
 
 Refer to LICENSE file for how this readme file itself is licensed.
 
-## Explanation of some of the list attributes above
+## Explanation of some of the list attributes printed above
 
-Note: See [Tidy documentation](https://github.com/sts10/tidy#list-attributes) for more.
+Note: See [Tidy documentation](https://github.com/sts10/tidy#list-attributes) for more information.
 
 ### Prefix codes, suffix codes, and uniquely decodable codes
 
