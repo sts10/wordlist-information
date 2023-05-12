@@ -340,9 +340,9 @@ supportive infancy stupendous gremlin spaniel backwater
 ----
 
 
-## [Orchard Street Medium List (v0.1.4)](https://github.com/sts10/orchard-street-wordlists/blob/ee46d29aad7a2e0a677b2ffd3a72034f2e2ecaf1/lists/orchard-street-medium.txt)
+## Orchard Street Medium List (v0.1.4)
 
-Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. As the creator of this list, I can confidently recommend that if you want to use this list, head over to [GitHub repository](https://github.com/sts10/orchard-street-wordlists) and get the very latest version.
+Self-promotion alert: I created this word list. As the creator of this list, I can confidently recommend that if you want to use this list, head over to [GitHub repository](https://github.com/sts10/orchard-street-wordlists) and get the very latest version.
 
 ```text
 List length               : 7776 words
@@ -370,9 +370,9 @@ below interact taught breeding slid walked
 connect sin owe slept agencies deeds
 ```
 
-## [Orchard Street Long List (v0.1.4)](https://github.com/sts10/orchard-street-wordlists/blob/ee46d29aad7a2e0a677b2ffd3a72034f2e2ecaf1/lists/orchard-street-long.txt)
+## Orchard Street Long List (v0.1.4)
 
-Self-promotion alert: I created this word list. This list is not included in this repository for licensing reasons. As the creator of this list, I can confidently recommend that if you want to use this list, head over to [GitHub repository](https://github.com/sts10/orchard-street-wordlists) and get the very latest version. 
+Self-promotion alert: I created this word list. As the creator of this list, I can confidently recommend that if you want to use this list, head over to [GitHub repository](https://github.com/sts10/orchard-street-wordlists) and get the very latest version. 
 
 ```text
 List length               : 17576 words
@@ -404,7 +404,7 @@ ocean rooftop indifferent sometimes pamphlet thinkers
 
 ## Licensing
 
-Refer to LICENSE file for how this readme file itself is licensed. 
+Refer to LICENSE file for how this readme file and all CSV files are licensed. 
 
 Any and all Orchard Street Wordlists are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 
