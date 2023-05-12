@@ -410,6 +410,23 @@ Refer to LICENSE file for how this readme file itself is licensed.
 
 Note: See [Tidy documentation](https://github.com/sts10/tidy#list-attributes) for more information.
 
+### Understanding the relationship between word list length and passphrase entropy
+
+The more word a word list has, the "stronger" the passphrases created from will be. 
+
+For example, each word from a 7,776-word list adds 12.925 bits of entropy to a passphrase. A 3-word passphrase from such a list will have 38.775 bits of entropy (3 * 12.925). A 6-word passphrase from the same list will have 77.55 bits of entropy (6 * 12.925).
+
+The chart below shows how many words from different list-lengths are required to hit minimum entropy requirements (starting at 55 bits of entropy).
+
+| Min entropy  | 4,000 words | 7,776 words | 8,000 words |17,576 words|
+| ------------ | ----------- | ----------- | ----------- | ----------- |
+| 55 bits      | 5 words     | 5 words     | 5 words     | 4 words
+| 60 bits      | 6 words     | 5 words     | 5 words     | 5 words
+| 65 bits      | 6 words     | 6 words     | 6 words     | 5 words
+| 70 bits      | 6 words     | 6 words     | 6 words     | 5 words
+| 75 bits      | 7 words     | 6 words     | 6 words     | 6 words
+| 80 bits      | 7 words     | 7 words     | 7 words     | 6 words
+
 ### Prefix codes, suffix codes, and uniquely decodable codes
 
 If a word list is **uniquely decodable** that means that words from the list can be safely combined without a delimiter between each word, e.g. `enticingneurosistriflecubeshiningdupe`.
