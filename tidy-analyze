@@ -1,0 +1,109 @@
+#!/bin/bash
+# 
+# This script run will Tidy to analyze the provide list(s) and then write out
+# the results to a CSV file.
+#
+
+# Errors are fatal
+set -e
+
+CSV=""
+LEVEL=0
+TIDY_LEVEL=""
+
+
+#
+# Print our syntax and exit
+#
+function print_syntax() {
+    echo "! "
+    echo "! Syntax $0 level file.txt [ file2.txt [ ... ] ]"
+    echo "! "
+    echo "! level - A value from 1 to 4, for how intensive analysis you want done."
+    echo "! "
+    exit 1
+}
+
+
+if test ! "$2"
+then
+    print_syntax
+elif test "$1" == "-h"
+then
+    print_syntax
+elif test "$1" == "--help"
+then
+    print_syntax
+fi
+
+LEVEL=$1
+shift
+
+if test "${LEVEL}" -lt 1 -o "${LEVEL}" -gt 4
+then
+    print_syntax
+fi
+
+CSV="wordlist-stats-level-${LEVEL}.csv"
+
+echo "# Writing results to ${CSV}..."
+
+#
+# If our CSV doesn't exist, create a header row.
+#
+if test "${LEVEL}" == 1
+then
+    TIDY_LEVEL="-A"
+
+    if test ! -f "${CSV}"
+    then
+        echo "Filename,List length,Mean word length,Length of shortest word,Length of longest word,Free of prefix words?,Free of suffix words?,Entropy per word,Efficiency per character,Assumed entropy per character,Above brute force line?" > ${CSV}
+    fi
+
+elif test "${LEVEL}" == 2
+then
+    TIDY_LEVEL="-AA"
+
+    if test ! -f "${CSV}"
+    then
+    echo "Filename,List length,Mean word length,Length of shortest word,Length of longest word,Free of prefix words?,Free of suffix words?,Entropy per word,Efficiency per character,Assumed entropy per character,Above brute force line?,Shortest edit distance,Longest shared prefix,Unique character prefix" > ${CSV}
+    fi
+
+elif test "${LEVEL}" == 3
+then
+    TIDY_LEVEL="-AAA"
+
+    if test ! -f "${CSV}"
+    then
+        echo "Filename,List length,Mean word length,Length of shortest word,Length of longest word,Free of prefix words?,Free of suffix words?,Entropy per word,Efficiency per character,Assumed entropy per character,Above brute force line?,Shortest edit distance,Mean edit distance,Longest shared prefix,Unique character prefix" > ${CSV}
+    fi
+
+elif test "${LEVEL}" == 4
+then
+    TIDY_LEVEL="-AAAA"
+
+    if test ! -f "${CSV}"
+    then
+        echo "Filename,List length,Mean word length,Length of shortest word,Length of longest word,Free of prefix words?,Free of suffix words?,Uniquely decodable?,Entropy per word,Efficiency per character,Assumed entropy per character,Above brute force line?,Shortest edit distance,Mean edit distance,Longest shared prefix,Unique character prefix" > ${CSV}
+    fi
+
+fi
+
+
+
+for FILE in "$@"
+do
+    shift
+    echo "# Processing file ${FILE}..."
+
+    #tidy --dry-run ${TIDY_LEVEL} ${FILE} # Debugging
+    OUTPUT=$(tidy --dry-run ${TIDY_LEVEL} ${FILE} 2>&1 | cut -d: -f2 | awk '{ print $1 }')
+
+    OUTPUT="${FILE} ${OUTPUT}"
+
+    echo $OUTPUT | cut -d" " -f1,5- | sed -e "s/ /,/g" >> ${CSV}
+
+done
+
+echo "# Done!"
+
