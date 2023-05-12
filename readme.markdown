@@ -153,7 +153,7 @@ lw wand fungi gala boom spurt
 
 ## Short word lists 
 
-Some of these are designed such that each word is phonetically distinct, meaning they are good choices if passphrases are going to read aloud frequently. 
+Some of these lists were/are designed such that each word is phonetically distinct, meaning they are good choices if passphrases are going to read aloud frequently. 
 
 ### EFF general short list
 [Source](https://www.eff.org/files/2016/09/08/eff_short_wordlist_1.txt).
@@ -399,6 +399,8 @@ villagers cowardice destination detailed capacities intruder
 dentists synthetic cannabis dignity bagel accession
 ocean rooftop indifferent sometimes pamphlet thinkers
 ```
+
+---
 
 ## Licensing
 
