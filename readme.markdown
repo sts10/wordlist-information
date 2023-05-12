@@ -39,68 +39,6 @@ operate etching unhealthy mayday moonbeam unhappy
 purist clay unlikable subsector perfected quote
 ```
 
-## EFF general short list
-[Source](https://www.eff.org/files/2016/09/08/eff_short_wordlist_1.txt).
-```text
-List length               : 1296 words
-Mean word length          : 4.54 characters
-Length of shortest word   : 3 characters (aim)
-Length of longest word    : 5 characters (zippy)
-Free of prefix words?     : true
-Free of suffix words?     : false
-Uniquely decodable?       : true
-Entropy per word          : 10.340 bits
-Efficiency per character  : 2.277 bits
-Assumed entropy per char  : 3.447 bits
-Above brute force line?   : true
-Shortest edit distance    : 1
-Mean edit distance        : 4.367
-Longest shared prefix     : 4
-Unique character prefix   : 5
-
-Word samples
-------------
-thank walk curse aide kick clay
-slick good judge depth smile omen
-duck stamp sandy crush self spew
-ream desk dart blunt reset dock
-baggy grief scoot zippy kung malt
-```
-
-## EFF Short list with unique prefixes
-
-EFF's short word list (with words that have unique three-character prefixes). [EFF writes of this list](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases):
-
-> Each word has a unique three-character prefix. This means that future software could auto-complete words in the passphrase after the user has typed the first three characters.
->
-> All words are at least an edit distance of 3 apart. This means that future software could correct any single typo in the user's passphrase (and in many cases more than one typo).
-
-```text
-List length               : 1296 words
-Mean word length          : 7.32 characters
-Length of shortest word   : 3 characters (cup)
-Length of longest word    : 10 characters (wrongdoing)
-Free of prefix words?     : true
-Free of suffix words?     : false
-Uniquely decodable?       : true
-Entropy per word          : 10.340 bits
-Efficiency per character  : 1.413 bits
-Assumed entropy per char  : 3.447 bits
-Above brute force line?   : true
-Shortest edit distance    : 3
-Mean edit distance        : 7.225
-Longest shared prefix     : 2
-Unique character prefix   : 3
-
-Word samples
-------------
-atrocious borough ethics mustard myspace jelly
-pucker sniff elliptical onlooker smartphone unusual
-acetone cotton cucumber luscious saltshaker escalator
-enquirer upholstery emoticon accountant pyramid padlock
-clock enchilada luscious neither zucchini mousetrap
-```
-
 ## KeePassXC's word list 
 
 This is the list that the [KeePassXC password manager](https://keepassxc.org/) will use by default ([source](https://github.com/keepassxreboot/keepassxc/blob/develop/share/wordlists/eff_large.wordlist)). Note: This list is very similar to the EFF long list.
@@ -163,35 +101,6 @@ grumble allay urgency stuffy been gammon
 future mailbox palmate spark paddle hillock
 ```
 
-## BIPS0039 English list
-
-[Source](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt)
-
-```text
-List length               : 2048 words
-Mean word length          : 5.40 characters
-Length of shortest word   : 3 characters (act)
-Length of longest word    : 8 characters (universe)
-Free of prefix words?     : false
-Free of suffix words?     : false
-Uniquely decodable?       : false
-Entropy per word          : 11.000 bits
-Efficiency per character  : 2.035 bits
-Assumed entropy per char  : 3.667 bits
-Above brute force line?   : true
-Shortest edit distance    : 1
-Mean edit distance        : 5.386
-Longest shared prefix     : 3
-Unique character prefix   : 4
-
-Word samples
-------------
-merit horse physical inmate cage solid
-rate gather habit safe wire bar
-medal chicken crunch weird dune gain
-input february art city thank work
-error laugh sand oak tuition inner
-```
 
 ## NSA RandPassGen List
 
@@ -241,6 +150,195 @@ co hub gabon tell tore fade
 boron fig rope tog peppy aster
 lw wand fungi gala boom spurt
 ```
+
+## Short word lists 
+
+Some of these are designed such that each word is phonetically distinct, meaning they are good choices if passphrases are going to read aloud frequently. 
+
+### EFF general short list
+[Source](https://www.eff.org/files/2016/09/08/eff_short_wordlist_1.txt).
+```text
+List length               : 1296 words
+Mean word length          : 4.54 characters
+Length of shortest word   : 3 characters (aim)
+Length of longest word    : 5 characters (zippy)
+Free of prefix words?     : true
+Free of suffix words?     : false
+Uniquely decodable?       : true
+Entropy per word          : 10.340 bits
+Efficiency per character  : 2.277 bits
+Assumed entropy per char  : 3.447 bits
+Above brute force line?   : true
+Shortest edit distance    : 1
+Mean edit distance        : 4.367
+Longest shared prefix     : 4
+Unique character prefix   : 5
+
+Word samples
+------------
+thank walk curse aide kick clay
+slick good judge depth smile omen
+duck stamp sandy crush self spew
+ream desk dart blunt reset dock
+baggy grief scoot zippy kung malt
+```
+
+### EFF Short list with unique prefixes
+
+EFF's short word list (with words that have unique three-character prefixes). [EFF writes of this list](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases):
+
+> Each word has a unique three-character prefix. This means that future software could auto-complete words in the passphrase after the user has typed the first three characters.
+>
+> All words are at least an edit distance of 3 apart. This means that future software could correct any single typo in the user's passphrase (and in many cases more than one typo).
+
+```text
+List length               : 1296 words
+Mean word length          : 7.32 characters
+Length of shortest word   : 3 characters (cup)
+Length of longest word    : 10 characters (wrongdoing)
+Free of prefix words?     : true
+Free of suffix words?     : false
+Uniquely decodable?       : true
+Entropy per word          : 10.340 bits
+Efficiency per character  : 1.413 bits
+Assumed entropy per char  : 3.447 bits
+Above brute force line?   : true
+Shortest edit distance    : 3
+Mean edit distance        : 7.225
+Longest shared prefix     : 2
+Unique character prefix   : 3
+
+Word samples
+------------
+atrocious borough ethics mustard myspace jelly
+pucker sniff elliptical onlooker smartphone unusual
+acetone cotton cucumber luscious saltshaker escalator
+enquirer upholstery emoticon accountant pyramid padlock
+clock enchilada luscious neither zucchini mousetrap
+```
+
+### Mnemonicode word list (v 0.7)
+
+[Source](https://github.com/schollz/mnemonicode/blob/master/word_list.go).
+
+```text
+List length               : 1633 words
+Mean word length          : 5.75 characters
+Length of shortest word   : 3 characters (ego)
+Length of longest word    : 7 characters (william)
+Free of prefix words?     : true
+Free of suffix words?     : false
+Uniquely decodable?       : true
+Entropy per word          : 10.673 bits
+Efficiency per character  : 1.857 bits
+Assumed entropy per char  : 3.558 bits
+Above brute force line?   : true
+Shortest edit distance    : 1
+Mean edit distance        : 5.552
+Longest shared prefix     : 6
+Unique character prefix   : 7
+
+Word samples
+------------
+pancake record bambino patent join lobster
+studio falcon kermit erosion except andy
+phrase judo tokyo family gate folio
+road editor silver zoom canoe chant
+spray telex cartoon radical inch rachel
+```
+
+### BIPS0039 English list
+
+[Source](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt). Note that this short list contains the British spelling "artefact", which seems strange?
+
+```text
+List length               : 2048 words
+Mean word length          : 5.40 characters
+Length of shortest word   : 3 characters (act)
+Length of longest word    : 8 characters (universe)
+Free of prefix words?     : false
+Free of suffix words?     : false
+Uniquely decodable?       : false
+Entropy per word          : 11.000 bits
+Efficiency per character  : 2.035 bits
+Assumed entropy per char  : 3.667 bits
+Above brute force line?   : true
+Shortest edit distance    : 1
+Mean edit distance        : 5.386
+Longest shared prefix     : 3
+Unique character prefix   : 4
+
+Word samples
+------------
+merit horse physical inmate cage solid
+rate gather habit safe wire bar
+medal chicken crunch weird dune gain
+input february art city thank work
+error laugh sand oak tuition inner
+```
+
+### Monero word list
+
+[Source](https://github.com/monero-project/monero/blob/master/src/mnemonics/english.h).
+
+```text
+List length               : 1626 words
+Mean word length          : 6.05 characters
+Length of shortest word   : 4 characters (aces)
+Length of longest word    : 12 characters (verification)
+Free of prefix words?     : true
+Free of suffix words?     : false
+Uniquely decodable?       : true
+Entropy per word          : 10.667 bits
+Efficiency per character  : 1.762 bits
+Assumed entropy per char  : 2.667 bits
+Above brute force line?   : true
+Shortest edit distance    : 1
+Mean edit distance        : 6.004
+Longest shared prefix     : 2
+Unique character prefix   : 3
+
+Word samples
+------------
+tipsy ensign governing tirade memoir upgrade
+swept addicted lamb jaded talent zigzags
+tufts gnome atlas lordship cinema eskimos
+ungainly dogs zodiac maverick judge after
+ravine orbit turnip dads ghost divers
+```
+
+### PGP Wordlist
+
+[As appears in Magic Wormhole project](https://github.com/magic-wormhole/magic-wormhole/blob/master/src/wormhole/_wordlist.py). See also: [https://en.wikipedia.org/wiki/PGP_Words](https://en.wikipedia.org/wiki/PGP_Words).
+
+```text
+List length               : 512 words
+Mean word length          : 7.65 characters
+Length of shortest word   : 4 characters (acme)
+Length of longest word    : 11 characters (stethoscope)
+Free of prefix words?     : true
+Free of suffix words?     : true
+Uniquely decodable?       : true
+Entropy per word          : 9.000 bits
+Efficiency per character  : 1.176 bits
+Assumed entropy per char  : 2.250 bits
+Above brute force line?   : true
+Shortest edit distance    : 2
+Mean edit distance        : 7.411
+Longest shared prefix     : 6
+Unique character prefix   : 7
+
+Word samples
+------------
+bedlamp Ohio proximate stormy revenue befriend
+Orlando pioneer bombast travesty hemisphere stagnate
+mural almighty dwelling infancy standard bifocals
+outfielder rhythm specialist candidate processor treadmill
+supportive infancy stupendous gremlin spaniel backwater
+```
+
+----
+
 
 ## [Orchard Street Medium List (v0.1.4)](https://github.com/sts10/orchard-street-wordlists/blob/ee46d29aad7a2e0a677b2ffd3a72034f2e2ecaf1/lists/orchard-street-medium.txt)
 
