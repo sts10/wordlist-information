@@ -10,7 +10,7 @@ See below for an explanation of some of the attributes listed.
 
 ## Word list comparison
 
-See wordlists-stats-level-4.csv for a comparison of many word lists.
+See [wordlists-stats-level-4.csv](wordlists-stats-level-4.csv) for a comparison of many word lists.
 
 ## Word list sources
 
@@ -53,7 +53,7 @@ Please refer to the license of each word list before use.
 Any and all Orchard Street Wordlists are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 
 
-## Explanation of some of the list attributes printed above
+## Explanation of some of the list attributes in spreadsheet
 
 Note: See [Tidy documentation](https://github.com/sts10/tidy#list-attributes) for more information.
 
