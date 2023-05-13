@@ -23,6 +23,7 @@ See [wordlists-stats-level-4.csv](./wordlist-stats-level-4.csv) for a comparison
 - [Eyeware](https://github.com/celskeggs/eyeware/blob/master/eyeware8k)
 - [Google Corpus, 20k](https://github.com/first20hours/google-10000-english/blob/master/20k.txt)
 - [Jack Singleton Diceware](https://github.com/jacksingleton/diceware/blob/master/diceware.txt)
+- [Jakob Mandula list](https://github.com/mandulaj/diceware-v6/blob/master/diceware-v6.txt.asc)
 - [KeePassXC's word list](https://github.com/keepassxreboot/keepassxc/blob/develop/share/wordlists/eff_large.wordlist)
 - [Mnemonicode word list (v 0.7)](https://github.com/schollz/mnemonicode/blob/master/word_list.go).
 - [Monero English word list](https://github.com/monero-project/monero/blob/master/src/mnemonics/english.h).
