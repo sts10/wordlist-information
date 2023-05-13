@@ -1,13 +1,14 @@
 Filename,List length,Mean word length,Length of shortest word,Length of longest word,Free of prefix words?,Free of suffix words?,Uniquely decodable?,Entropy per word,Efficiency per character,Assumed entropy per character,Above brute force line?,Shortest edit distance,Mean edit distance,Longest shared prefix,Unique character prefix
-lists/1password-2023.txt,18176,6.20,3,8,false,false,false,14.150,2.283,4.717,false,1,6.168,7,8
-lists/bips-0039-english.txt,2048,5.40,3,8,false,false,false,11.000,2.035,3.667,true,1,5.386,3,4
+lists/1password-2023.txt,18176,6.2,3,8,false,false,false,14.15,2.283,4.717,false,1,6.168,7,8
+lists/bips-0039-english.txt,2048,5.4,3,8,false,false,false,11,2.035,3.667,true,1,5.386,3,4
 lists/eff-long.txt,7776,6.99,3,9,true,false,true,12.925,1.849,4.308,true,1,6.858,8,9
-lists/eff-short-general.txt,1296,4.54,3,5,true,false,true,10.340,2.277,3.447,true,1,4.367,4,5
-lists/eff-short-unique-prefixes.txt,1296,7.32,3,10,true,false,true,10.340,1.413,3.447,true,3,7.225,2,3
+lists/eff-short-general.txt,1296,4.54,3,5,true,false,true,10.34,2.277,3.447,true,1,4.367,4,5
+lists/eff-short-unique-prefixes.txt,1296,7.32,3,10,true,false,true,10.34,1.413,3.447,true,3,7.225,2,3
 lists/keepassxc.txt,7776,6.99,3,10,true,false,true,12.925,1.848,4.308,true,1,6.859,8,9
 lists/mnemonicode.txt,1633,5.75,3,7,true,false,true,10.673,1.857,3.558,true,1,5.552,6,7
 lists/monero.txt,1626,6.05,4,12,true,false,true,10.667,1.762,2.667,true,1,6.004,2,3
-lists/orchard-street-long.txt,17576,7.98,3,15,false,false,true,14.101,1.767,4.700,true,1,7.914,14,15
+lists/orchard-street-long.txt,17576,7.98,3,15,false,false,true,14.101,1.767,4.7,true,1,7.914,14,15
 lists/orchard-street-medium.txt,7776,7.05,3,10,false,false,true,12.925,1.834,4.308,true,1,6.951,9,10
-lists/pgp-wordlist.txt,512,7.65,4,11,true,true,true,9.000,1.176,2.250,true,2,7.411,6,7
+lists/pgp-wordlist.txt,512,7.65,4,11,true,true,true,9,1.176,2.25,true,2,7.411,6,7
 lists/reinhold.txt,7776,4.24,1,6,false,false,false,12.925,3.049,12.925,false,1,4.423,5,6
+lists/NSA-RandPassGenerator-wordlist.txt,117828,7.9,2,21,false,false,false,16.846,2.133,8.423,false,1,Error,20,21
