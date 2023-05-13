@@ -1,4 +1,5 @@
-
+outdated/
+outdated/*
 # Vim droppings
 *.swp
 
