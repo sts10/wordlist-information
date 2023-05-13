@@ -21,10 +21,12 @@ See [wordlists-stats-level-4.csv](./wordlist-stats-level-4.csv) for a comparison
 - [EFF general short list](https://www.eff.org/files/2016/09/08/eff_short_wordlist_1.txt).
 - [EFF long list](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases)
 - [Eyeware](https://github.com/celskeggs/eyeware/blob/master/eyeware8k)
+- [Google Corpus, 20k](https://github.com/first20hours/google-10000-english/blob/master/20k.txt)
 - [Jack Singleton Diceware](https://github.com/jacksingleton/diceware/blob/master/diceware.txt)
 - [KeePassXC's word list](https://github.com/keepassxreboot/keepassxc/blob/develop/share/wordlists/eff_large.wordlist)
 - [Mnemonicode word list (v 0.7)](https://github.com/schollz/mnemonicode/blob/master/word_list.go).
 - [Monero English word list](https://github.com/monero-project/monero/blob/master/src/mnemonics/english.h).
+- [Niceware](https://github.com/diracdeltas/niceware/blob/master/lib/wordlist.js)
 - [NSA RandPassGen list](https://github.com/nsacyber/RandPassGenerator/blob/master/RandPassGenerator/data/wordlist.txt)
 - [Orchard Street Long List](https://github.com/sts10/orchard-street-wordlists/blob/main/lists/orchard-street-long.txt) (v0.1.4)
 - [Orchard Street Medium List](https://github.com/sts10/orchard-street-wordlists/blob/main/lists/orchard-street-medium.txt) (v0.1.4)

@@ -26,3 +26,5 @@ lists/reinhold8k.txt,8192,4.13,1,6,false,false,false,13.000,3.151,13.000,false,1
 lists/uli-fouquet-diceware.txt,8192,4.85,1,10,false,false,false,13.000,2.683,13.000,false,1,4.869,6,7
 lists/eyeware8k.txt,8192,6.31,3,9,false,false,false,13.000,2.060,4.333,true,1,6.237,8,9
 lists/webplaces-10k-short.txt,10000,4.40,3,5,false,false,false,13.288,3.020,4.429,true,1,4.293,4,5
+lists/niceware-v4.txt,65536,8.29,1,28,false,false,false,16.000,1.930,16.000,false,1,8.272,25,26
+lists/google-corpus-20k.txt,20000,6.77,1,20,false,false,false,14.288,2.110,14.288,false,1,7.136,17,18
