@@ -8,6 +8,10 @@ The information printed below was generated using a tool called [Tidy](https://g
 
 See below for an explanation of some of the attributes listed.
 
+## Word list comparison
+
+See wordlists-stats-level-4.csv for a comparison of many word lists.
+
 ## Word list sources
 
 - [1Password's word list](https://github.com/1Password/spg/blob/master/testdata/agwordlist.txt)
