@@ -10,7 +10,7 @@ See below for an explanation of some of the attributes listed.
 
 ## Word list comparison
 
-See [wordlists-stats-level-4.csv](blob/main/wordlist-stats-level-4.csv) for a comparison of many word lists.
+See [wordlists-stats-level-4.csv](./wordlist-stats-level-4.csv) for a comparison of many word lists.
 
 ## Word list sources
 
