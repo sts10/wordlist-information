@@ -406,7 +406,10 @@ ocean rooftop indifferent sometimes pamphlet thinkers
 
 Refer to LICENSE file for how this readme file and all CSV files are licensed. 
 
+Please refer to the license of each word list before use.
+
 Any and all Orchard Street Wordlists are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+
 
 ## Explanation of some of the list attributes printed above
 
