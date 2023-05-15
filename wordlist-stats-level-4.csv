@@ -14,8 +14,6 @@ lists/keepassxc.txt,7776,6.99,3,10,true,false,true,12.925,1.848,4.308,true,1,6.8
 lists/mnemonicode.txt,1633,5.75,3,7,true,false,true,10.673,1.857,3.558,true,1,5.552,6,7
 lists/monero.txt,1626,6.05,4,12,true,false,true,10.667,1.762,2.667,true,1,6.004,2,3
 lists/niceware-v4.txt,65536,8.29,1,28,false,false,false,16.000,1.930,16.000,false,1,8.272,25,26
-lists/orchard-street-long.txt,17576,7.98,3,15,false,false,true,14.101,1.767,4.7,true,1,7.914,14,15
-lists/orchard-street-medium.txt,7776,7.05,3,10,false,false,true,12.925,1.834,4.308,true,1,6.951,9,10
 lists/passplum-proposed.txt,4096,5.07,3,6,false,false,false,12.000,2.367,4.000,true,1,4.878,5,6
 lists/pgp-wordlist.txt,512,7.65,4,11,true,true,true,9,1.176,2.25,true,2,7.411,6,7
 lists/pokerware-formal.txt,5304,5.00,3,6,false,false,false,12.373,2.475,4.124,true,1,4.871,5,6
@@ -31,3 +29,5 @@ lists/webplaces-combined-diceware.txt,7776,4.60,3,7,false,false,false,12.925,2.8
 lists/webplaces-improved-diceware.txt,7776,6.26,3,10,false,false,false,12.925,2.066,4.308,true,1,6.357,9,10
 lists/dmuth-6-dice.txt,46657,5.55,4,6,false,false,false,15.510,2.796,3.877,true,1,5.226,5,6
 lists/dmuth-7-dice.txt,279937,7.14,4,11,false,false,false,18.095,2.536,4.524,true,1,538.177,10,11
+lists/orchard-street-long.txt,17576,7.98,3,15,false,false,true,14.101,1.767,4.700,true,1,7.914,14,15
+lists/orchard-street-medium.txt,7776,7.05,3,10,false,false,true,12.925,1.833,4.308,true,1,6.952,9,10
