@@ -31,6 +31,7 @@ See [wordlists-stats-level-4.csv](./wordlist-stats-level-4.csv) for a comparison
 - [NSA RandPassGen list](https://github.com/nsacyber/RandPassGenerator/blob/master/RandPassGenerator/data/wordlist.txt)
 - [Orchard Street Long List](https://github.com/sts10/orchard-street-wordlists/blob/main/lists/orchard-street-long.txt) (v0.1.4)
 - [Orchard Street Medium List](https://github.com/sts10/orchard-street-wordlists/blob/main/lists/orchard-street-medium.txt) (v0.1.4)
+- [Peerio English wordlist](https://github.com/BlueMona/peerio-web-passphrase-generator/blob/master/src/dict/en.txt)
 - [PGP Wordlist](https://github.com/magic-wormhole/magic-wormhole/blob/master/src/wormhole/_wordlist.py). See also: [https://en.wikipedia.org/wiki/PGP_Words](https://en.wikipedia.org/wiki/PGP_Words).
 - [Passplum Proposed](https://github.com/atoponce/passplum/blob/master/packages/web/example-seed-data.json)
 - [Pokerware Formal](https://github.com/skeeto/pokerware/blob/master/words-formal.txt)
