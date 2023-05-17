@@ -27,6 +27,7 @@ See [wordlists-stats-level-4.csv](./wordlist-stats-level-4.csv) for a comparison
 - [KeePassXC's word list](https://github.com/keepassxreboot/keepassxc/blob/develop/share/wordlists/eff_large.wordlist)
 - [Mnemonicode word list (v 0.7)](https://github.com/schollz/mnemonicode/blob/master/word_list.go).
 - [Monero English word list](https://github.com/monero-project/monero/blob/master/src/mnemonics/english.h).
+- [New Fandom lists](https://github.com/sts10/new-fandom-wordlists) by [Aaron Toponce](https://gist.github.com/atoponce/241abc6977dffeb6f9d724512e4fa339)
 - [Niceware](https://github.com/diracdeltas/niceware/blob/master/lib/wordlist.js)
 - [NSA RandPassGen list](https://github.com/nsacyber/RandPassGenerator/blob/master/RandPassGenerator/data/wordlist.txt)
 - [Orchard Street Long List](https://github.com/sts10/orchard-street-wordlists/blob/main/lists/orchard-street-long.txt) (v0.1.4)
