@@ -1,10 +1,12 @@
-# Wordlist information 
+# Wordlist information
 
-This readme file contains information about word lists commonly used to generate passphrases. 
+This readme file contains information about word lists commonly used to generate passphrases.
 
 Copies of the word lists are included in this repository, but when possible, please get word lists from their original sources, as the ones included here are likely outdated.
 
-The information printed below was generated using a tool called [Tidy](https://github.com/sts10/tidy) (version 0.2.91) by running `tidy -AAAA --samples <wordlist-file>`.
+The information in the CSV file in this repo was generated using a tool called [Word List Auditor](https://github.com/sts10/wla) (version 0.2.1).
+
+(As an alternative, if need be, you can try using [Tidy](https://github.com/sts10/tidy) by running `tidy -AAAA --samples <wordlist-file>`.)
 
 See below for an explanation of some of the attributes listed.
 
@@ -51,7 +53,7 @@ See [wordlists-stats-level-4.csv](./wordlist-stats-level-4.csv) for a comparison
 
 ## Licensing
 
-Refer to LICENSE file for how this readme file and all CSV files are licensed. 
+Refer to LICENSE file for how this readme file and all CSV files are licensed.
 
 Please refer to the license of each word list before use.
 
@@ -60,11 +62,11 @@ Any and all Orchard Street Wordlists are licensed under the [Creative Commons At
 
 ## Explanation of some of the list attributes in spreadsheet
 
-Note: See [Tidy documentation](https://github.com/sts10/tidy#list-attributes) for more information.
+Note: See [Word List Auditor's documentation](https://github.com/sts10/wla#about-the-information-reported-by-this-program) for more information.
 
 ### Understanding the relationship between word list length and passphrase entropy
 
-The more word a word list has, the "stronger" the passphrases created from will be. 
+The more word a word list has, the "stronger" the passphrases created from will be.
 
 For example, each word from a 7,776-word list adds 12.925 bits of entropy to a passphrase. A 3-word passphrase from such a list will have 38.775 bits of entropy (3 * 12.925). A 6-word passphrase from the same list will have 77.55 bits of entropy (6 * 12.925).
 
@@ -85,15 +87,13 @@ If a word list is **uniquely decodable** that means that words from the list can
 
 As a brief example, if a list has "boy", "hood", and "boyhood" on it, users who specified they wanted two words worth of randomness (entropy) might end up with "boyhood", which an attacker guessing single words would try. Removing the word "boy", which makes the remaining list uniquely decodable, prevents this possibility from occurring.
 
-My understanding is that a good way to determine if a given word list in uniquely decodable or not is to use [the Sardinas–Patterson algorithm](https://en.wikipedia.org/wiki/Sardinas%E2%80%93Patterson_algorithm). This is [how Tidy determines if a word list is uniquely decodable](https://github.com/sts10/tidy/blob/main/src/display_information/uniquely_decodable.rs) and the result of that code is printed next to the label "Uniquely decodable?" in the word information above.
+My understanding is that a good way to determine if a given word list in uniquely decodable or not is to use [the Sardinas–Patterson algorithm](https://en.wikipedia.org/wiki/Sardinas%E2%80%93Patterson_algorithm). This is [how the Word List Auditor tool determines if a word list is uniquely decodable](https://github.com/sts10/wla/blob/main/src/compute_attributes/uniquely_decodable.rs) and the result of that code is printed next to the label "Uniquely decodable?" in the word information above. (For more on the Sardinas-Patterson algorithm and implementing it in Rust, see [this project](https://github.com/sts10/uniquely-decodable).)
 
 Removing all [prefix words](https://en.wikipedia.org/wiki/Prefix_code) (or all suffix words) is one way to make a list uniquely decodable, but I contest it is not the only way, nor usually the most efficient. I adapted the Sardinas-Patterson algorithm to create, what I believe, is a more efficient method for making a word list uniquely decodable. I used this method to make all of the [Orchard Street Wordlists](https://github.com/sts10/orchard-street-wordlists) uniquely decodable. You can learn more about uniquely decodable codes and Schlinkert pruning from [this blog post](https://sts10.github.io/2022/08/12/efficiently-pruning-until-uniquely-decodable.html).
 
 ### On maximum shared prefix length
 
 If a word list's maximum shared prefix length is 4, that means that knowing the first 4 characters of any word on the generated list is sufficient to know which word it is.
-
-On this hypothetical list, we'd know that if a word starts with "radi", we know it must be the word "radius" (if "radical" had been on the list, Tidy would have removed it).
 
 This is useful if you intend the list to be used by software that uses auto-complete. For example, a user will only have to type the first 4 characters of any word before a program could successfully auto-complete the entire word.
 
